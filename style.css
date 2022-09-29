@@ -15,10 +15,10 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  -o-background-size: 70% 70%, auto;
-  -moz-background-size: 70% 70%, auto;
-  -webkit-background-size: 70% 70%, auto;
-  background-size: 100% 120%, auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   opacity: 1;
 }
 
