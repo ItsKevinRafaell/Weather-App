@@ -18,7 +18,7 @@ locationBtn.addEventListener("click", () => {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
   } else {
-    alert("Your browser not support geolocation API");
+    alert("Browser Anda Tidak Support Geolocation API");
   }
 });
 function onSuccess(position) {
